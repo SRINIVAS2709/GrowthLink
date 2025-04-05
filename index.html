@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GrowthLink</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/index.css">
+</head>
+
+<body>
+    <nav>
+        <!-- Above Navbar -->
+        <div class="nav-address">
+            <div class="phone-container">
+                <i class="fa-solid fa-phone"></i>
+                <a class="callus-text" href="tel:+919100105590"><span>Call Us: +91-91001 05590</span></a>
+            </div>
+            <address class="address-container">
+                <a href="https://maps.app.goo.gl/rNJFJNvMaAGXDcg57" target="_blank">
+                    <i class="fa-solid fa-location-dot"></i>
+                    Flat 103, vinodam residency, ALIND Employees Colony, Hyderabad, Serilingampalle (M), Telangana
+                    500019
+                </a>
+            </address>
+        </div>
+        <!-- Navbar -->
+        <div id="navbar">
+            <div>
+                <a href="/"><img class="growthlink-logo" src="./assets/images/logo.jpg" alt="logo"></a>
+            </div>
+
+            <ul class="list-container">
+                <a href="/">
+                    <li>Home</li>
+                </a>
+                <a href="#services">
+                    <li>Services</li>
+                </a>
+                <a href="#aboutus">
+                    <li>About Us</li>
+                </a>
+                <a href="#Faqs">
+                    <li>FAQ'S</li>
+                </a>
+                <a href="#form-submission">
+                    <li>Contact Us</li>
+                </a>
+            </ul>
+
+            <div class="hamburger" onclick="toggleMobileMenu()">
+                <i class="fa-solid fa-bars" style="color: #3d60ac;"></i>
+            </div>
+
+            <ul class="mobile-menu">
+                <div class="close-btn" onclick="toggleMobileMenu()">
+                  <i class="fa-solid fa-xmark" style="color: #3d60ac;"></i>
+                </div>
+                
+                <a href="/"><li onclick="closeMobileMenu()">Home</li></a>
+                <a href="#services"><li onclick="closeMobileMenu()">Services</li></a>
+                <a href="#aboutus"><li onclick="closeMobileMenu()">About Us</li></a>
+                <a href="#Faqs"><li onclick="closeMobileMenu()">FAQ'S</li></a>
+                <a href="#form-submission"><li onclick="closeMobileMenu()">Contact Us</li></a>
+              </ul>
+              
+        </div>
+
+    </nav>
+
+    <!-- Main Section -->
+    <main>
+        <div>
+            <h1>A Business Loan Consultancy by <br>
+                <span class="headtext-highlight">
+                    Credit Managers
+                </span> <br>
+                And <br>
+                <span class="headtext-highlight">Charted Accountants</span>
+            </h1>
+        </div>
+
+        <p class="head-subtext">Loans simplified, Funds Amplified</p>
+    </main>
+
+    <!-- About Us -->
+    <section id="aboutus">
+        <h2 class="aboutus-headtext">About Us</h2>
+        <div class="aboutus-paracontainer">
+            <p class="aboutus-paratext">We are Chartered Accountants with previous experience as Credit Managers in
+                reputed banks.
+                We helped our clients in getting sanctions for Business Loans which were initially rejected by many
+                banks.
+                Loan cases taken up by us has yielded Rs.5 to 20 Crores more amount compared to direct bank approach
+            </p>
+        </div>
+    </section>
+
+    <!-- Services  -->
+    <section id="services">
+        <div class="services-headtext-container">
+            <h2 class="services-headtext">Our services</h2>
+            <h3 class="services-subtext">Assistance in getting sanction</h3>
+        </div>
+        <div class="service-category-container">
+            <div class="individual-servicecontainer">
+                <img class="services-loanImg" src="./assets/images/goldloan.jpg" alt="Personal Loan">
+                <h4>Personal Loan</h4>
+            </div>
+            <div class="individual-servicecontainer">
+                <img class="services-loanImg" src="./assets/images/bussinessloan.jpg" alt="Bussiness Loan">
+                <h4>Bussiness Loan</h4>
+            </div>
+            <div class="individual-servicecontainer">
+                <img class="services-loanImg" src="./assets/images/homeloan.jpg" alt="Home Loan">
+                <h4>Home Loan</h4>
+            </div>
+            <div class="individual-servicecontainer">
+                <img class="services-loanImg" src="./assets/images/mortageloan.jpg" alt="Mortgage Loan">
+                <h4>Mortgage Loan</h4>
+            </div>
+            <div class="individual-servicecontainer">
+                <img class="services-loanImg" src="./assets/images/carloan.jpg" alt="Car Loan">
+                <h4>Car Loan</h4>
+            </div>
+            <div class="individual-servicecontainer">
+                <img class="services-loanImg" src="./assets/images/carloan.jpg" alt="Vehicle Loan">
+                <h4>Vehicle Loan</h4>
+            </div>
+            <div class="individual-servicecontainer">
+                <img class="services-loanImg" src="./assets/images/goldloan.jpg" alt="Gold Loan">
+                <h4>Gold Loan</h4>
+            </div>
+            <div class="individual-servicecontainer">
+                <img class="services-loanImg" src="./assets/images/bussinessloan.jpg" alt="Educational Loan">
+                <h4>Educational Loan</h4>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section id="whychooseus">
+        <div class="whychoose-headtextcontainer">
+            <h2 class="whychoose-headtext">Why Choose Us?</h2>
+            <h3 class="whychoose-subheadteaxt">Reasons that make us different</h3>
+        </div>
+        <div class="whychoose-boxescontainer">
+            <div class="whychoose-individual-divcontainer">
+                <p class="whychooseus-numbertext">01</p>
+                <h4 class="whychooseus-indidual-divheadtext">Credit Managers</h4>
+                <h5 class="whychooseus-indidual-divheadsubtext">Benefit from our team’s extensive background as credit
+                    managers in reputed banks</h5>
+            </div>
+            <div class="whychoose-individual-divcontainer">
+                <p class="whychooseus-numbertext">02</p>
+                <h4 class="whychooseus-indidual-divheadtext">Success in Handling Complex Loans</h4>
+                <h5 class="whychooseus-indidual-divheadsubtext">We have a track record of securing sanction for loans
+                    that were initially rejected by many / all banks</h5>
+            </div>
+            <div class="whychoose-individual-divcontainer">
+                <p class="whychooseus-numbertext">03</p>
+                <h4 class="whychooseus-indidual-divheadtext">Accurate eligibility assessment from the start</h4>
+                <h5 class="whychooseus-indidual-divheadsubtext">Know your eligibility accurately from the start,
+                    avoiding lengthy bank processes</h5>
+            </div>
+            <div class="whychoose-individual-divcontainer">
+                <p class="whychooseus-numbertext">04</p>
+                <h4 class="whychooseus-indidual-divheadtext">Maximum Loan Amounts</h4>
+                <h5 class="whychooseus-indidual-divheadsubtext">Our expertise ensures structuring the loan in a way that
+                    yields maximum loan amounts compared to direct bank approaches</h5>
+            </div>
+            <div class="whychoose-individual-divcontainer">
+                <p class="whychooseus-numbertext">05</p>
+                <h4 class="whychooseus-indidual-divheadtext">Loan process unburdened</h4>
+                <h5 class="whychooseus-indidual-divheadsubtext">Complete your loan process hassle free by outsourcing so
+                    that you can focus on your business operations</h5>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonial -->
+    <div class="testimonials-container">
+        <h2 class="testimonial-headtext">Client Testimonials</h2>
+        <div class="cards-wrapper" id="cardsWrapper">
+            <!-- 10 cards -->
+            <div class="testimonial-card active">
+                <p>Securing a Rs. 22 crores loan seemed impossible after rejections from multiple banks. Thanks to
+                    Padamati and Associates, their expertise and dedicated efforts made it a reality.</p>
+                <h4>K Venkat Reddy</h4>
+            </div>
+            <div class="testimonial-card">
+                <p>Securing a Rs. 22 crores loan seemed impossible after rejections from multiple banks. Thanks to
+                    Padamati and Associates, their expertise and dedicated efforts made it a reality.</p>
+                <h4>Madhu Sudhan Reddy</h4>
+            </div>
+            <div class="testimonial-card">
+                <p>Securing a Rs. 22 crores loan seemed impossible after rejections from multiple banks. Thanks to
+                    Padamati and Associates, their expertise and dedicated efforts made it a reality.</p>
+                <h4>M Ranga Reddy</h4>
+            </div>
+            <div class="testimonial-card">
+                <p>Securing a Rs. 22 crores loan seemed impossible after rejections from multiple banks. Thanks to
+                    Padamati and Associates, their expertise and dedicated efforts made it a reality.</p>
+                <h4>Arun Kumar</h4>
+            </div>
+            <div class="testimonial-card">
+                <p>Securing a Rs. 22 crores loan seemed impossible after rejections from multiple banks. Thanks to
+                    Padamati and Associates, their expertise and dedicated efforts made it a reality.</p>
+                <h4>Bhaskar Rao</h4>
+            </div>
+            <div class="testimonial-card">
+                <p>Securing a Rs. 22 crores loan seemed impossible after rejections from multiple banks. Thanks to
+                    Padamati and Associates, their expertise and dedicated efforts made it a reality.</p>
+                <h4>Deepak Reddy</h4>
+            </div>
+            <div class="testimonial-card">
+                <p>Securing a Rs. 22 crores loan seemed impossible after rejections from multiple banks. Thanks to
+                    Padamati and Associates, their expertise and dedicated efforts made it a reality.</p>
+                <h4>Sunil Reddy</h4>
+            </div>
+            <div class="testimonial-card">
+                <p>Securing a Rs. 22 crores loan seemed impossible after rejections from multiple banks. Thanks to
+                    Padamati and Associates, their expertise and dedicated efforts made it a reality.</p>
+                <h4>Teja Reddy</h4>
+            </div>
+            <div class="testimonial-card">
+                <p>Securing a Rs. 22 crores loan seemed impossible after rejections from multiple banks. Thanks to
+                    Padamati and Associates, their expertise and dedicated efforts made it a reality.</p>
+                <h4>Suresh Yadav</h4>
+            </div>
+            <div class="testimonial-card">
+                <p>Securing a Rs. 22 crores loan seemed impossible after rejections from multiple banks. Thanks to
+                    Padamati and Associates, their expertise and dedicated efforts made it a reality.</p>
+                <h4>Naveen Kumar</h4>
+            </div>
+        </div>
+
+        <!-- 10 dots -->
+        <div class="dots">
+            <span class="dot active" data-index="0"></span>
+            <span class="dot" data-index="1"></span>
+            <span class="dot" data-index="2"></span>
+            <span class="dot" data-index="3"></span>
+            <span class="dot" data-index="4"></span>
+            <span class="dot" data-index="5"></span>
+            <span class="dot" data-index="6"></span>
+            <span class="dot" data-index="7"></span>
+            <span class="dot" data-index="8"></span>
+            <span class="dot" data-index="9"></span>
+        </div>
+    </div>
+
+    <!-- FAQ'S -->
+    <section id="Faqs">
+        <div class="faq-container">
+            <h2>Frequently Asked Questions</h2>
+            <div class="faq-grid">
+                <div class="faq-item" onclick="toggleAnswer(this)">
+                    <div class="faq-question">Who are Credit Managers?</div>
+                    <div class="faq-answer">Credit Managers are professionals who assist with loan eligibility,
+                        documentation, and finding suitable lenders.</div>
+                </div>
+                <div class="faq-item" onclick="toggleAnswer(this)">
+                    <div class="faq-question">How many days does it take for the loan process to complete</div>
+                    <div class="faq-answer">It typically takes 5–7 working days, depending on documentation and lender
+                        processing time.</div>
+                </div>
+                <div class="faq-item" onclick="toggleAnswer(this)">
+                    <div class="faq-question">Can I get loan with bad credit score</div>
+                    <div class="faq-answer">Yes, but it depends on the lender and may involve higher interest rates or
+                        collaterals.</div>
+                </div>
+                <div class="faq-item" onclick="toggleAnswer(this)">
+                    <div class="faq-question">Can you tell us exactly what is my eligible amount before going to banker
+                    </div>
+                    <div class="faq-answer">Yes, we assess your income and obligations to provide a pre-eligibility
+                        estimate.</div>
+                </div>
+                <div class="faq-item" onclick="toggleAnswer(this)">
+                    <div class="faq-question">How you are different from other loan agents in the market</div>
+                    <div class="faq-answer">We provide end-to-end support, including tailored advice, faster processing,
+                        and ethical practices.</div>
+                </div>
+
+                <!-- Right column -->
+                <div class="faq-item" onclick="toggleAnswer(this)">
+                    <div class="faq-question">Do you provide PAN India services</div>
+                    <div class="faq-answer">Yes, our services are available across India.</div>
+                </div>
+                <div class="faq-item" onclick="toggleAnswer(this)">
+                    <div class="faq-question">What is the maximum amount of ticket size that you take up</div>
+                    <div class="faq-answer">We arrange loans up to ₹10 crores, subject to eligibility and lender
+                        policies.</div>
+                </div>
+                <div class="faq-item" onclick="toggleAnswer(this)">
+                    <div class="faq-question">Do you arrange loans for New Businesses?</div>
+                    <div class="faq-answer">Yes, we support startups and new businesses with customized financial
+                        solutions.</div>
+                </div>
+                <div class="faq-item" onclick="toggleAnswer(this)">
+                    <div class="faq-question">Which Loans do you arrange other than Business Loans</div>
+                    <div class="faq-answer">We arrange home loans, personal loans, working capital, machinery loans,
+                        etc.</div>
+                </div>
+                <div class="faq-item" onclick="toggleAnswer(this)">
+                    <div class="faq-question">What is the minimum loan size that you take up</div>
+                    <div class="faq-answer">Minimum loan amount starts from ₹1 lakh depending on loan type and profile.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Form Submission -->
+    <section id="form-submission">
+        <div class="form-section">
+            <h2>Have a Question?<br />Ask Contact Support Now</h2>
+            <form id="contactForm">
+                <input type="text" id="name" placeholder="Name" required />
+                <input type="text" id="company" placeholder="Company name" />
+                <input type="tel" id="mobile" placeholder="Mobile No" required />
+                <input type="email" id="email" placeholder="Email Id" required />
+                <input type="text" id="amount" placeholder="Amount of Loan required" required />
+                <button class="form-submit-btn" type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-logo">
+                <a href="/"><img src="./assets/images/logo.jpg" alt="growthlink logo"></a>
+            </div>
+            <div class="footer-links">
+                <h3 class="footer-quicklink-text">Quick Links</h3>
+                <ul>
+                    <li><a href="#"><i class="fa-solid fa-caret-right"></i></i>Home</a></li>
+                    <li><a href="#services"><i class="fa-solid fa-caret-right"></i>Service</a></li>
+                    <li><a href="#Faqs"><i class="fa-solid fa-caret-right"></i>FAQ's</a></li>
+                    <li><a href="#form-submission"><i class="fa-solid fa-caret-right"></i>Contact Us</a></li>
+                    <li><a href="#"><i class="fa-solid fa-caret-right"></i>Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h3>Address & Contact</h3>
+                <p> <i class="fa-solid fa-phone"></i> +91-91001 05590</p>
+                <p> <i class="fa-regular fa-envelope"></i> example@gmail.com</p>
+                <p><i class="fa-solid fa-location-dot"></i>Flat 103, vinodam residency, ALIND Employees Colony, <br>
+                    Hyderabad, Serilingampalle (M), Telangana 500019</p>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="./assets/js/index.js"></script>
+</body>
+
+</html>
