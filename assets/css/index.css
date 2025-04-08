@@ -405,6 +405,10 @@ h1 {
     gap: 30px;
 }
 
+.service-category-container a{
+    text-decoration: none;
+}
+
 .individual-servicecontainer {
     background-color: #FAFAFA;
     color: #000000;

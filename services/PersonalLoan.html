@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Loan - GrowthLink</title>
+    <link rel="stylesheet" href="./services css/personalLoan.css">
+</head>
+
+<body>
+
+    <!-- Benefits Container -->
+    <div class="benefits-container">
+        <div class="benefits-headcontainer">
+            <h2>Personal Loan Benefits</h2>
+            <div class="terms">Terms And Conditions</div>
+        </div>
+        <ul class="benefits">
+            <li>
+                <strong>No Collateral Required</strong>
+                <span>Enjoy hassle-free financing without pledging any assets or property. Loan approval is based solely
+                    on your income and creditworthiness.</span>
+            </li>
+            <li>
+                <strong>Quick Access to Funds</strong>
+                <span>Personal Loans are processed swiftly, ensuring you receive the funds in no time—often within
+                    seconds or just a few days after approval.</span>
+            </li>
+            <li>
+                <strong>Flexible Usage</strong>
+                <span>Use your loan for virtually any purpose; be it a wedding, home renovation, medical emergency or
+                    travel. There are no restrictions on how you spend the funds.</span>
+            </li>
+            <li>
+                <strong>Budget-Friendly EMIs</strong>
+                <span>Benefit from fixed and affordable EMIs that ensure easy repayment without stretching your
+                    finances.</span>
+            </li>
+        </ul>
+    </div>
+
+    <!-- Elgibilty Container -->
+    <div class="eligibility-box">
+        <h2>Personal Loan Eligibility Criteria</h2>
+        <ul>
+            <li class="eligibility-age">
+                <span><strong>Age:</strong></span>
+                21 to 60 years
+            </li>
+            <li>
+                <strong>Employment:</strong>
+                <ul style="list-style-type: disc; padding-left: 20px;">
+                    <li>Employees of private limited companies</li>
+                    <li>Employees of public sector undertakings (central, state, and local bodies)</li>
+                </ul>
+            </li>
+            <li>
+                <strong>Work Experience:</strong>
+                Minimum of 2 years of total work experience, with at least 1 year in the current organisation
+            </li>
+            <li>
+                <strong>Income:</strong>
+                Minimum monthly net income of ₹25,000
+            </li>
+        </ul>
+        <a href="#">Know your Personal Loan eligibility</a>
+    </div>
+
+    <!-- Loan Documentation -->
+    <div class="doc-box">
+        <h2>Personal Loan Documentation</h2>
+        <ul>
+            <li>
+                Identity Proof & Address Proof
+                <ul>
+                    <li>Pan Card <strong>mandatory</strong></li>
+                    <li>Voter ID card</li>
+                    <li>Driving license</li>
+                    <li>Aadhaar card</li>
+                </ul>
+            </li>
+            <li>Bank statement of previous 3 months or Passbook of previous 6 months</li>
+            <li>Two latest salary slips/current dated salary certificates with the latest Form 16</li>
+        </ul>
+        <p><strong>Note:</strong> No documents for pre-approved Personal Loan</p>
+        <a href="#">Find the complete list of Personal Loan documents</a>
+    </div>
+
+    <div class="contact-redirect-container">
+        <div class="contact-redirect-num-container">
+            <h3>Call Us at: +91 1234567890</h3>
+        </div>
+        <div>
+            OR
+        </div>
+        <a href="../index.html#form-submission" target="_blank" rel="noopener noreferrer">
+            <button class="fill-out-form-btn">Fill out our form</button>
+        </a>
+    </div>
+
+     <!--Calculator -->
+     <div class="calculator-container">
+        <div class="cal-head-img-container">
+            <img class="cal-img" src="../assets/images/loan-emi-cal.webp" alt="Calculate Image">
+        </div>
+        <div class="calculator">
+            <h2 class="calculator-headtext">Personal Loan EMI Calculator</h2>
+
+            <div class="field">
+                <label>Loan Amount (₹)</label>
+                <input type="range" id="amount" min="50000" max="4000000" step="1000" value="1000000">
+                <div class="value" id="amountVal">₹10,00,000</div>
+            </div>
+
+            <div class="field">
+                <label>Loan Tenure (Years)</label>
+                <input type="range" id="tenure" min="1" max="5" value="5">
+                <div class="value" id="tenureVal">5 Years</div>
+            </div>
+
+            <div class="field">
+                <label>Interest Rate (%)</label>
+                <input type="range" id="rate" min="10.9" max="21" step="0.1" value="10.9">
+                <div class="value" id="rateVal">10.9%</div>
+            </div>
+
+            <div class="result" id="emiResult"></div>
+        </div>
+    </div>
+
+    <script src="./services.js"></script>
+</body>
+
+</html>
