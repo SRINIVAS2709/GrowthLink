@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gold Loan - GrowthLink</title>
+    <link rel="stylesheet" href="./css/services.css">
+</head>
+
+<body>
+    <div class="benefits-container">
+        <div class="benefits-headcontainer">
+            <h2>Gold Loan Benefits</h2>
+        </div>
+        <ul class="benefits">
+            <li><strong>Quick Disbursal</strong><span>Loan approved and credited instantly against your gold.</span></li>
+            <li><strong>High LTV (Loan-to-Value)</strong><span>Get up to 75% of gold's market value as loan.</span></li>
+            <li><strong>Low Interest Rates</strong><span>Enjoy affordable interest rates and zero processing charges in select offers.</span></li>
+            <li><strong>Safe Storage</strong><span>Your gold is stored securely in insured vaults.</span></li>
+        </ul>
+    </div>
+
+    <div class="eligibility-box">
+        <h2>Gold Loan Eligibility Criteria</h2>
+        <ul>
+            <li><strong>Age:</strong> 18 to 70 years</li>
+            <li><strong>Eligibility:</strong> Individuals owning gold ornaments</li>
+            <li><strong>Employment:</strong> Salaried, self-employed or homemakers</li>
+            <li><strong>Credit History:</strong> Not mandatory</li>
+        </ul>
+    </div>
+
+    <div class="doc-box">
+        <h2>Gold Loan Documentation</h2>
+        <ul>
+            <li>Identity Proof (Aadhaar, Voter ID, Passport)</li>
+            <li>Address Proof (Utility bill, Aadhaar, etc.)</li>
+            <li>Recent Photograph</li>
+        </ul>
+        <p><strong>Note:</strong> Documents vary by location and lender requirements.</p>
+    </div>
+
+    <div class="contact-redirect-container">
+        <div class="contact-redirect-num-container">
+            <h3>Call Us at: +91 1234567890</h3>
+        </div>
+        <div>OR</div>
+        <a href="../index.html#form-submission">
+            <button class="fill-out-form-btn">Fill out our form</button>
+        </a>
+    </div>
+
+    <div class="calculator-container">
+        <div class="cal-head-img-container">
+            <img class="cal-img" src="../assets/images/loan-emi-cal.webp" alt="Calculate Image">
+        </div>
+        <div class="calculator">
+            <h2 class="calculator-headtext">Gold Loan EMI Calculator</h2>
+            <div class="field">
+                <label>Loan Amount (₹)</label>
+                <input type="range" id="amount" min="10000" max="2000000" step="5000" value="150000">
+                <div class="value" id="amountVal">₹1,50,000</div>
+            </div>
+            <div class="field">
+                <label>Loan Tenure (Months)</label>
+                <input type="range" id="tenure" min="1" max="36" value="12">
+                <div class="value" id="tenureVal">12 Months</div>
+            </div>
+            <div class="field">
+                <label>Interest Rate (%)</label>
+                <input type="range" id="rate" min="8" max="15" step="0.1" value="10">
+                <div class="value" id="rateVal">10%</div>
+            </div>
+            <div class="result" id="emiResult"></div>
+        </div>
+    </div>
+
+    <script src="../js/services.js"></script>
+</body>
+
+</html>

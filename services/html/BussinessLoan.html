@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business Loan - GrowthLink</title>
+    <link rel="stylesheet" href="./css/services.css">
+</head>
+
+<body>
+    <div class="benefits-container">
+        <div class="benefits-headcontainer">
+            <h2>Business Loan Benefits</h2>
+        </div>
+        <ul class="benefits">
+            <li><strong>Unsecured Loans</strong><span>No collateral required for loans up to ₹50 lakhs, subject to eligibility.</span></li>
+            <li><strong>Quick Processing</strong><span>Fast disbursal with simplified documentation process.</span></li>
+            <li><strong>Customizable Repayment</strong><span>Flexible EMI plans tailored to suit your business cash flow.</span></li>
+            <li><strong>Use for Any Business Purpose</strong><span>Expand operations, manage working capital, or upgrade infrastructure.</span></li>
+        </ul>
+    </div>
+
+    <div class="eligibility-box">
+        <h2>Business Loan Eligibility Criteria</h2>
+        <ul>
+            <li><strong>Age:</strong> 25 to 65 years</li>
+            <li><strong>Business Vintage:</strong> Minimum 2 years of business operations</li>
+            <li><strong>Credit Score:</strong> Minimum 700</li>
+            <li><strong>Income:</strong> Minimum annual turnover of ₹10 lakhs</li>
+        </ul>
+    </div>
+
+    <div class="doc-box">
+        <h2>Business Loan Documentation</h2>
+        <ul>
+            <li>KYC Documents (PAN, Aadhaar, etc.)</li>
+            <li>Business Proof (Registration certificate, GST, etc.)</li>
+            <li>Bank statements for last 6 months</li>
+            <li>Income Tax Returns for the past 2 years</li>
+        </ul>
+        <p><strong>Note:</strong> Documents may vary based on loan amount and business type.</p>
+    </div>
+
+    <div class="contact-redirect-container">
+        <div class="contact-redirect-num-container">
+            <h3>Call Us at: +91 1234567890</h3>
+        </div>
+        <div>OR</div>
+        <a href="../index.html#form-submission">
+            <button class="fill-out-form-btn">Fill out our form</button>
+        </a>
+    </div>
+
+    <div class="calculator-container">
+        <div class="cal-head-img-container">
+            <img class="cal-img" src="../assets/images/loan-emi-cal.webp" alt="Calculate Image">
+        </div>
+        <div class="calculator">
+            <h2 class="calculator-headtext">Business Loan EMI Calculator</h2>
+            <div class="field">
+                <label>Loan Amount (₹)</label>
+                <input type="range" id="amount" min="100000" max="5000000" step="10000" value="1000000">
+                <div class="value" id="amountVal">₹10,00,000</div>
+            </div>
+            <div class="field">
+                <label>Loan Tenure (Years)</label>
+                <input type="range" id="tenure" min="1" max="5" value="3">
+                <div class="value" id="tenureVal">3 Years</div>
+            </div>
+            <div class="field">
+                <label>Interest Rate (%)</label>
+                <input type="range" id="rate" min="10" max="18" step="0.1" value="12.5">
+                <div class="value" id="rateVal">12.5%</div>
+            </div>
+            <div class="result" id="emiResult"></div>
+        </div>
+    </div>
+
+    <script src="../js/services.js"></script>
+</body>
+
+</html>

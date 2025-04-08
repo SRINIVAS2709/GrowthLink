@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Loan - GrowthLink</title>
+    <link rel="stylesheet" href="./css/services.css">
+</head>
+
+<body>
+    <div class="benefits-container">
+        <div class="benefits-headcontainer">
+            <h2>Car Loan Benefits</h2>
+        </div>
+        <ul class="benefits">
+            <li><strong>High Loan Amount</strong><span>Get up to 100% financing on select models based on eligibility.</span></li>
+            <li><strong>Fast Processing</strong><span>Quick disbursal process with minimal paperwork and instant approvals.</span></li>
+            <li><strong>Flexible Repayment</strong><span>Choose from a variety of repayment options up to 7 years.</span></li>
+            <li><strong>Attractive Interest Rates</strong><span>Avail competitive rates based on your credit profile.</span></li>
+        </ul>
+    </div>
+
+    <div class="eligibility-box">
+        <h2>Car Loan Eligibility Criteria</h2>
+        <ul>
+            <li class="eligibility-age"><span><strong>Age:</strong></span> 21 to 65 years</li>
+            <li><strong>Employment:</strong> Salaried or self-employed with stable income</li>
+            <li><strong>Credit Score:</strong> Minimum 650</li>
+            <li><strong>Income:</strong> Minimum monthly income of ₹20,000</li>
+        </ul>
+    </div>
+
+    <div class="doc-box">
+        <h2>Car Loan Documentation</h2>
+        <ul>
+            <li>Identity & Address Proof (Aadhaar, PAN, DL, Passport)</li>
+            <li>Last 6 months Bank Statement</li>
+            <li>Income Proof (Salary slip/ITR)</li>
+            <li>Quotation or proforma invoice of the vehicle</li>
+        </ul>
+        <p><strong>Note:</strong> Documents may vary based on applicant type.</p>
+    </div>
+
+    <div class="contact-redirect-container">
+        <div class="contact-redirect-num-container">
+            <h3>Call Us at: +91 1234567890</h3>
+        </div>
+        <div>OR</div>
+        <a href="../index.html#form-submission">
+            <button class="fill-out-form-btn">Fill out our form</button>
+        </a>
+    </div>
+
+    <div class="calculator-container">
+        <div class="cal-head-img-container">
+            <img class="cal-img" src="../assets/images/loan-emi-cal.webp" alt="Calculate Image">
+        </div>
+        <div class="calculator">
+            <h2 class="calculator-headtext">Car Loan EMI Calculator</h2>
+            <div class="field">
+                <label>Loan Amount (₹)</label>
+                <input type="range" id="amount" min="50000" max="3000000" step="10000" value="800000">
+                <div class="value" id="amountVal">₹8,00,000</div>
+            </div>
+            <div class="field">
+                <label>Loan Tenure (Years)</label>
+                <input type="range" id="tenure" min="1" max="7" value="5">
+                <div class="value" id="tenureVal">5 Years</div>
+            </div>
+            <div class="field">
+                <label>Interest Rate (%)</label>
+                <input type="range" id="rate" min="7" max="14" step="0.1" value="9.5">
+                <div class="value" id="rateVal">9.5%</div>
+            </div>
+            <div class="result" id="emiResult"></div>
+        </div>
+    </div>
+
+    <script src="../js/services.js"></script>
+</body>
+
+</html>

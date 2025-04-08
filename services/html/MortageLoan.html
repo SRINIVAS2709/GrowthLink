@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mortgage Loan - GrowthLink</title>
+    <link rel="stylesheet" href="./css/services.css">
+</head>
+
+<body>
+
+    <!-- Benefits Container -->
+    <div class="benefits-container">
+        <div class="benefits-headcontainer">
+            <h2>Mortgage Loan Benefits</h2>
+        </div>
+        <ul class="benefits">
+            <li>
+                <strong>Lower Interest Rates</strong>
+                <span>Mortgage loans generally offer lower interest rates compared to personal loans, making it more affordable in the long run.</span>
+            </li>
+            <li>
+                <strong>High Loan Amounts</strong>
+                <span>You can borrow a significant amount based on the value of your property, giving you access to larger funds.</span>
+            </li>
+            <li>
+                <strong>Longer Repayment Tenure</strong>
+                <span>Flexible and extended repayment periods of up to 15–20 years help manage EMIs comfortably.</span>
+            </li>
+            <li>
+                <strong>Continued Ownership</strong>
+                <span>You retain ownership of the mortgaged property while availing the loan benefits.</span>
+            </li>
+        </ul>
+    </div>
+
+    <!-- Elgibilty Container -->
+    <div class="eligibility-box">
+        <h2>Mortgage Loan Eligibility Criteria</h2>
+        <ul>
+            <li class="eligibility-age">
+                <span><strong>Age:</strong></span>
+                25 to 65 years
+            </li>
+            <li>
+                <strong>Employment:</strong>
+                <ul style="list-style-type: disc; padding-left: 20px;">
+                    <li>Salaried individuals with stable income</li>
+                    <li>Self-employed professionals and business owners</li>
+                </ul>
+            </li>
+            <li>
+                <strong>Property Ownership:</strong>
+                The property being mortgaged must be in your name and free from any legal disputes
+            </li>
+            <li>
+                <strong>Income:</strong>
+                Sufficient and stable income to support EMI payments
+            </li>
+        </ul>
+    </div>
+
+    <!-- Loan Documentation -->
+    <div class="doc-box">
+        <h2>Mortgage Loan Documentation</h2>
+        <ul>
+            <li>
+                Identity Proof & Address Proof
+                <ul>
+                    <li>Pan Card <strong>mandatory</strong></li>
+                    <li>Aadhaar card</li>
+                    <li>Driving license</li>
+                    <li>Voter ID card</li>
+                </ul>
+            </li>
+            <li>Latest 6 months bank statements</li>
+            <li>Income proof (salary slips, ITR, or audited financials)</li>
+            <li>Property documents (title deed, NOC from society, tax receipts)</li>
+        </ul>
+        <p><strong>Note:</strong> Pre-approved customers may require fewer documents</p>
+    </div>
+
+    <!-- contact redirect -->
+    <div class="contact-redirect-container">
+        <div class="contact-redirect-num-container">
+            <h3>Call Us at: +91 1234567890</h3>
+        </div>
+        <div>
+            OR
+        </div>
+        <a href="../index.html#form-submission">
+            <button class="fill-out-form-btn">Fill out our form</button>
+        </a>
+    </div>
+
+    <!--Calculator -->
+    <div class="calculator-container">
+        <div class="cal-head-img-container">
+            <img class="cal-img" src="../assets/images/loan-emi-cal.webp" alt="Calculate Image">
+        </div>
+        <div class="calculator">
+            <h2 class="calculator-headtext">Mortgage Loan EMI Calculator</h2>
+
+            <div class="field">
+                <label>Loan Amount (₹)</label>
+                <input type="range" id="amount" min="100000" max="10000000" step="10000" value="3000000">
+                <div class="value" id="amountVal">₹30,00,000</div>
+            </div>
+
+            <div class="field">
+                <label>Loan Tenure (Years)</label>
+                <input type="range" id="tenure" min="5" max="20" value="15">
+                <div class="value" id="tenureVal">15 Years</div>
+            </div>
+
+            <div class="field">
+                <label>Interest Rate (%)</label>
+                <input type="range" id="rate" min="8" max="12" step="0.1" value="9.5">
+                <div class="value" id="rateVal">9.5%</div>
+            </div>
+
+            <div class="result" id="emiResult"></div>
+        </div>
+    </div>
+
+    <script src="../js/services.js"></script>
+</body>
+
+</html>

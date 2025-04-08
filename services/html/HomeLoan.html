@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Loan - GrowthLink</title>
+    <link rel="stylesheet" href="./css/services.css">
+</head>
+
+<body>
+    <div class="benefits-container">
+        <div class="benefits-headcontainer">
+            <h2>Home Loan Benefits</h2>
+        </div>
+        <ul class="benefits">
+            <li><strong>Affordable Interest Rates</strong><span>Access low interest rates designed to make home ownership easier and affordable.</span></li>
+            <li><strong>Tax Benefits</strong><span>Enjoy tax deductions on both principal and interest repayment under Sections 80C and 24(b).</span></li>
+            <li><strong>Flexible Repayment Tenure</strong><span>Choose from repayment tenures ranging up to 30 years to suit your budget.</span></li>
+            <li><strong>Balance Transfer Facility</strong><span>Transfer existing home loans to us and reduce your EMI burden with lower interest rates.</span></li>
+        </ul>
+    </div>
+
+    <div class="eligibility-box">
+        <h2>Home Loan Eligibility Criteria</h2>
+        <ul>
+            <li class="eligibility-age"><span><strong>Age:</strong></span> 23 to 65 years</li>
+            <li><strong>Employment:</strong>
+                <ul style="list-style-type: disc; padding-left: 20px;">
+                    <li>Salaried professionals</li>
+                    <li>Self-employed individuals</li>
+                </ul>
+            </li>
+            <li><strong>Credit Score:</strong> Minimum 700 is recommended</li>
+            <li><strong>Income:</strong> Minimum monthly income of ₹30,000</li>
+        </ul>
+    </div>
+
+    <div class="doc-box">
+        <h2>Home Loan Documentation</h2>
+        <ul>
+            <li>Identity Proof & Address Proof (Pan Card, Aadhaar, Passport)</li>
+            <li>Bank statement of last 6 months</li>
+            <li>Property documents including sale agreement</li>
+            <li>Income Proof (Salary slips/ITR/Form 16)</li>
+        </ul>
+        <p><strong>Note:</strong> Additional documents may be required based on profile.</p>
+    </div>
+
+    <div class="contact-redirect-container">
+        <div class="contact-redirect-num-container">
+            <h3>Call Us at: +91 1234567890</h3>
+        </div>
+        <div>OR</div>
+        <a href="../index.html#form-submission">
+            <button class="fill-out-form-btn">Fill out our form</button>
+        </a>
+    </div>
+
+    <div class="calculator-container">
+        <div class="cal-head-img-container">
+            <img class="cal-img" src="../assets/images/loan-emi-cal.webp" alt="Calculate Image">
+        </div>
+        <div class="calculator">
+            <h2 class="calculator-headtext">Home Loan EMI Calculator</h2>
+            <div class="field">
+                <label>Loan Amount (₹)</label>
+                <input type="range" id="amount" min="100000" max="10000000" step="10000" value="2500000">
+                <div class="value" id="amountVal">₹25,00,000</div>
+            </div>
+            <div class="field">
+                <label>Loan Tenure (Years)</label>
+                <input type="range" id="tenure" min="1" max="30" value="20">
+                <div class="value" id="tenureVal">20 Years</div>
+            </div>
+            <div class="field">
+                <label>Interest Rate (%)</label>
+                <input type="range" id="rate" min="6.5" max="12" step="0.1" value="7.5">
+                <div class="value" id="rateVal">7.5%</div>
+            </div>
+            <div class="result" id="emiResult"></div>
+        </div>
+    </div>
+
+    <script src="../js/services.js"></script>
+</body>
+
+</html>

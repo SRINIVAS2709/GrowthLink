@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education Loan - GrowthLink</title>
+    <link rel="stylesheet" href="./css/services.css">
+</head>
+
+<body>
+    <div class="benefits-container">
+        <div class="benefits-headcontainer">
+            <h2>Education Loan Benefits</h2>
+        </div>
+        <ul class="benefits">
+            <li><strong>Wide Course Coverage</strong><span>Covers graduation, post-graduation, vocational and professional courses in India and abroad.</span></li>
+            <li><strong>High Loan Amount</strong><span>Finance your full education cost including tuition, travel, accommodation, and books.</span></li>
+            <li><strong>Flexible Repayment Terms</strong><span>Repayment starts after course completion with a grace period.</span></li>
+            <li><strong>Tax Benefits</strong><span>Interest paid qualifies for tax deduction under Section 80E.</span></li>
+        </ul>
+    </div>
+
+    <div class="eligibility-box">
+        <h2>Education Loan Eligibility Criteria</h2>
+        <ul>
+            <li><strong>Nationality:</strong> Indian citizen</li>
+            <li><strong>Age:</strong> 18 to 35 years</li>
+            <li><strong>Admission:</strong> Confirmed admission in a recognized institution in India or abroad</li>
+            <li><strong>Co-applicant:</strong> Mandatory (Parent/Guardian)</li>
+        </ul>
+    </div>
+
+    <div class="doc-box">
+        <h2>Education Loan Documentation</h2>
+        <ul>
+            <li>KYC Documents (Student and Co-applicant)</li>
+            <li>Admission letter from institution</li>
+            <li>Fee structure and expenses estimation</li>
+            <li>Academic records and mark sheets</li>
+            <li>Income proof of co-applicant</li>
+        </ul>
+        <p><strong>Note:</strong> Additional documents may be needed for overseas education.</p>
+    </div>
+
+    <div class="contact-redirect-container">
+        <div class="contact-redirect-num-container">
+            <h3>Call Us at: +91 1234567890</h3>
+        </div>
+        <div>OR</div>
+        <a href="../index.html#form-submission">
+            <button class="fill-out-form-btn">Fill out our form</button>
+        </a>
+    </div>
+
+    <div class="calculator-container">
+        <div class="cal-head-img-container">
+            <img class="cal-img" src="../assets/images/loan-emi-cal.webp" alt="Calculate Image">
+        </div>
+        <div class="calculator">
+            <h2 class="calculator-headtext">Education Loan EMI Calculator</h2>
+            <div class="field">
+                <label>Loan Amount (₹)</label>
+                <input type="range" id="amount" min="50000" max="3000000" step="10000" value="500000">
+                <div class="value" id="amountVal">₹5,00,000</div>
+            </div>
+            <div class="field">
+                <label>Loan Tenure (Years)</label>
+                <input type="range" id="tenure" min="1" max="10" value="5">
+                <div class="value" id="tenureVal">5 Years</div>
+            </div>
+            <div class="field">
+                <label>Interest Rate (%)</label>
+                <input type="range" id="rate" min="8" max="13" step="0.1" value="9.5">
+                <div class="value" id="rateVal">9.5%</div>
+            </div>
+            <div class="result" id="emiResult"></div>
+        </div>
+    </div>
+
+    <script src="../js/services.js"></script>
+</body>
+
+</html>
