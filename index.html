@@ -333,14 +333,15 @@
     <section id="form-submission">
         <div class="form-section">
             <h2>Have a Question?<br />Ask Contact Support Now</h2>
-            <form id="contactForm">
-                <input type="text" id="name" placeholder="Name" required />
-                <input type="text" id="company" placeholder="Company name" />
-                <input type="tel" id="mobile" placeholder="Mobile No" required />
-                <input type="email" id="email" placeholder="Email Id" required />
-                <input type="text" id="amount" placeholder="Amount of Loan required" required />
+            <form id="contactForm" action="https://formspree.io/f/meoapbeb" method="POST">
+                <input type="text" id="name" name="name" placeholder="Name" required />
+                <input type="text" id="company" name="company" placeholder="Company name" />
+                <input type="tel" id="mobile" name="mobile" placeholder="Mobile No" required />
+                <input type="email" id="email" name="email" placeholder="Email Id" required />
+                <input type="text" id="amount" name="amount" placeholder="Amount of Loan required" required />
                 <button class="form-submit-btn" type="submit">Submit</button>
             </form>
+            
         </div>
     </section>
 

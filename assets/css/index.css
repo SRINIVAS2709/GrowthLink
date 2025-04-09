@@ -7,6 +7,9 @@
 html {
     scroll-behavior: smooth;
 }
+body{
+    overflow-x: hidden;
+}
 
 
 .nav-address {
@@ -321,9 +324,9 @@ h1 {
 }
 
 .aboutus-paratext {
-    margin-top: 30px;
+    margin-top: 25px;
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 350;
     text-align: center;
     line-height: 30px;
 }
@@ -359,8 +362,9 @@ h1 {
     }
 
     .aboutus-paratext {
+        margin-top: 10px;
         font-size: 16px;
-        line-height: 26px;
+        line-height: 24px;
     }
 }
 
@@ -488,8 +492,7 @@ h1 {
     }
 
     .individual-servicecontainer {
-        width: 100%;
-        max-width: 350px;
+        width: 130px;
     }
 }
 
