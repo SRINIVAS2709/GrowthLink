@@ -12,7 +12,19 @@ body {
     background-color: #f7f7f7;
 }
 
+
+
+/* Banner Css */
+.service-banner-container{
+    max-width: 100%;
+}
+.service-banner-img{
+    width: 100%;
+}
+
+
 /* .................................................................................................................................. */
+
 .contact-redirect-container {
     background: #ffffff;
     margin-top: 20px;
