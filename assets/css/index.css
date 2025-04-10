@@ -7,7 +7,8 @@
 html {
     scroll-behavior: smooth;
 }
-body{
+
+body {
     overflow-x: hidden;
 }
 
@@ -409,7 +410,7 @@ h1 {
     gap: 30px;
 }
 
-.service-category-container a{
+.service-category-container a {
     text-decoration: none;
 }
 
@@ -618,6 +619,113 @@ h1 {
         font-size: 22px;
     }
 }
+
+
+/* Team Css*/
+.team-heading {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #222;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.team-wrapper {
+    position: relative;
+}
+
+.team-scroll {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    gap: 1rem;
+    padding: 25px;
+}
+
+/* Hide scrollbar */
+.team-scroll::-webkit-scrollbar {
+    display: none;
+}
+
+.team-scroll {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.team-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    min-width: 280px;
+    background: white;
+    border-radius: 16px;
+    padding: 1.5rem;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+    flex-shrink: 0;
+    transition: transform 0.3s;
+    cursor: pointer;
+}
+
+.team-card:hover {
+    transform: translateY(-5px);
+}
+
+.team-card h3 {
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+.team-card p {
+    color: #555;
+    margin: 0.25rem 0;
+    font-size: 0.95rem;
+}
+
+.team-scroll-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #333;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.team-scroll-btn:hover {
+    background: #000;
+}
+
+.team-scroll-left {
+    left: 0;
+}
+
+.team-scroll-right {
+    right: 0;
+}
+
+@media (max-width: 600px) {
+    .team-heading {
+        font-size: 1.6rem;
+        text-align: center;
+    }
+    .team-scroll {
+        padding: 25px 5px;
+    }
+
+    .team-scroll-btn {
+        display: none;
+    }
+
+    .team-card {
+        min-width: 85%;
+    }
+}
+
 
 /*----------------------- Testimonial css ---------------------------------------------------------------------------------------------*/
 .testimonials-container {
@@ -909,7 +1017,7 @@ button:hover {
 }
 
 .footer-logo img {
-    width: 150px;
+    width: 165px;
 }
 
 
@@ -955,7 +1063,6 @@ button:hover {
         align-items: flex-start;
         text-align: left;
     }
-
     .footer-logo,
     .footer-links,
     .footer-contact {
@@ -964,5 +1071,6 @@ button:hover {
 
     .footer-logo img {
         margin-bottom: 10px;
+        width: 130px;
     }
 }

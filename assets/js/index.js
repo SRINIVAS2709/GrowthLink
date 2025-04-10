@@ -14,6 +14,14 @@ function closeMobileMenu() {
 }
 
 
+// Team Card
+function scrollTeam(val) {
+  document.getElementById('teamScroll').scrollBy({
+    left: val,
+    behavior: 'smooth'
+  });
+}
+
 // On dot click, scroll to the respective card
 dots.forEach(dot => {
   dot.addEventListener("click", () => {

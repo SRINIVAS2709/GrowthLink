@@ -15,10 +15,11 @@ body {
 
 
 /* Banner Css */
-.service-banner-container{
+.service-banner-container {
     max-width: 100%;
 }
-.service-banner-img{
+
+.service-banner-img {
     width: 100%;
 }
 
@@ -321,57 +322,66 @@ body {
 }
 
 @media (max-width: 768px) {
+    .service-banner-container {
+        max-width: 100%;
+    }
+
+    .service-banner-img {
+        width: 100%;
+        height: 50px;
+    }
+
     .benefits-container,
     .eligibility-box,
     .doc-box {
-      width: 90%;
-      padding: 20px;
-      padding-left: 20px;
+        margin-top: 10px;
+        width: 90%;
+        padding: 20px;
+        padding-left: 20px;
     }
-  
+
     .benefits-headcontainer {
-      flex-direction: column;
-      align-items: flex-start;
-      padding-right: 0;
-      gap: 10px;
+        flex-direction: column;
+        align-items: flex-start;
+        padding-right: 0;
+        gap: 10px;
     }
-  
+
     .calculator-container {
-      flex-direction: column;
-      padding: 20px;
-      gap: 30px;
+        flex-direction: column;
+        padding: 20px;
+        gap: 30px;
     }
-  
+
     .cal-head-img-container,
     .calculator {
-      width: 100%;
-      margin-top: 0;
+        width: 100%;
+        margin-top: 0;
     }
-  
+
     .cal-img {
-      width: 100%;
+        width: 100%;
     }
-  
+
     .contact-redirect-container {
-      width: 90%;
-      padding: 20px;
+        width: 90%;
+        padding: 20px;
     }
-  
+
     .fill-out-form-btn {
-      font-size: 16px;
-      padding: 10px 20px;
+        font-size: 16px;
+        padding: 10px 20px;
     }
-  
+
     .calculator {
-      padding: 20px;
+        padding: 20px;
     }
-  
+
     .calculator-headtext {
-      font-size: 20px;
+        font-size: 20px;
     }
-  
+
     .result {
-      font-size: 16px;
+        font-size: 16px;
     }
-  }
-  
+}
